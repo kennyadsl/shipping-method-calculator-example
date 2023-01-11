@@ -84,3 +84,6 @@ Spree.user_class = "Spree::LegacyUser"
 # the class name:
 #
 # Spree::UserLastUrlStorer.rules << 'Spree::UserLastUrlStorer::Rules::AuthenticationRule'
+
+
+Rails.application.config.spree.calculators.shipping_methods << 'AmazingStore::Calculator::Shipping::WeightShippingCalculator'
